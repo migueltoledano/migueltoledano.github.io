@@ -7,20 +7,31 @@
   <title>Miguel Toledano</title>
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 <nav>
-   <div class="nav-wrapper">
-     <a href="#" class="brand-logo">Miguel Toledano</a>
-     <ul id="nav-mobile" class="right hide-on-med-and-down">
-       <li><a href="#">Sass</a></li>
-       <li><a href="#">Components</a></li>
-       <li><a href="#">JavaScript</a></li>
-     </ul>
-   </div>
- </nav>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo">Miguel Toledano</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down list">
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Proyectos</a></li>
+      <li><a href="#">Acerda de mi</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Proyectos</a></li>
+      <li><a href="#">Acerda de mi</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </div>
 <body>
 
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript">
+  $(".button-collapse").sideNav();
+</script>
 </html>

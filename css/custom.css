@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita|Baloo|Montserrat|Lobster');
+
+.side-nav{
+  font-family: 'Montserrat', sans-serif;
+}
+.list{
+  font-family: 'Montserrat', sans-serif;
+}
+.nav-wrapper{
+  background-color: #2ec997;
+}
+.brand-logo{
+  font-family: 'Lobster', sans-serif;
+}
