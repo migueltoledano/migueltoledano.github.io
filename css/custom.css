@@ -44,3 +44,28 @@
   color: #fff;
   font-family: 'Lobster', sans-serif;
 }
+img{
+  vertical-align: middle;
+}
+.img-responsive{
+  margin-left: auto;
+  margin-right: auto;
+  height: 230px;
+  border-radius: 50%;
+}
+.name{
+  font-size: 42px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Lobster', sans-serif;
+}
+.jumbotron {
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background-color: rgba(245, 245, 245, 0.3);
+}
+.skills{
+  font-size: 32px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Sansita', sans-serif;
+}
