@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sansita|Lobster');
 
 .intro-section{
-  background-image: url(../img/intro.jpeg);
+  background-image: url(../img/intro3.jpg);
   min-height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
@@ -62,10 +62,29 @@ img{
 .jumbotron {
    background: rgb(200, 54, 54); /* This is for ie8 and below */
    background-color: rgba(245, 245, 245, 0.3);
+   margin-top: -30px;
 }
 .skills{
   font-size: 32px;
   color: #fff;
   font-weight: 700;
   font-family: 'Sansita', sans-serif;
+}
+#img-res-xs{
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  border-radius: 50%;
+}
+.skills-xs{
+  font-size: 26px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Sansita', sans-serif;
+}
+.name-xs{
+  font-size: 28px;
+  color: #fff;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 700;
 }
