@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Sansita|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Sansita|Lobster|Montserrat|Raleway');
 
 .intro-section{
   background-image: url(../img/intro3.jpg);
@@ -93,4 +93,68 @@ img{
 }
 #xs{
   margin-top: -20px;
+}
+.More {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 10px 36px;
+  font-size: 18px;
+  font-family: "Raleway",serif;
+  line-height: 1.0;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.More:focus {
+  outline: none
+}
+.More {
+  margin-top: 5px;
+  color: #fff;
+  font-weight: 700;
+  background: rgba(0,0,0,0);
+  border: solid 5px #2ec997;
+  text-decoration: none;
+}
+.More:hover{
+  border-color: #33a580;
+  color: #fff;
+  text-decoration: none;
+
+}
+.More.active{
+  border-color: #27496d;
+  color: #27496d;
+}
+/*PARPADEA*/
+.parpadea {
+
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
 }
