@@ -73,18 +73,24 @@ img{
 #img-res-xs{
   margin-left: auto;
   margin-right: auto;
-  height: 150px;
+  height: 200px;
   border-radius: 50%;
 }
 .skills-xs{
-  font-size: 26px;
+  font-size: 30px;
   color: #fff;
   font-weight: 700;
   font-family: 'Sansita', sans-serif;
 }
 .name-xs{
-  font-size: 28px;
+  font-size: 36px;
   color: #fff;
   font-family: 'Lobster', sans-serif;
   font-weight: 700;
+}
+.star-light{
+  font-weight: 700;
+}
+#xs{
+  margin-top: -20px;
 }
