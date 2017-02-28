@@ -1,160 +1,199 @@
-@import url('https://fonts.googleapis.com/css?family=Sansita|Lobster|Montserrat|Raleway');
-
-.intro-section{
-  background-image: url(../img/intro3.jpg);
-  min-height: 100vh;
-  background-position: center center;
-  background-repeat: no-repeat;
+.app-header{
+  background: url('../img/intro3.jpg') no-repeat center top fixed;
   background-size: cover;
+  font-family: "Avenir", Futura, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 80px;
 }
-.about-section{
-  background-image: url(../img/intro2.jpeg);
-  min-height: 100vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.navbar-default{
-  background-color: #2C3E50;
-  border-color: #2C3E50;
-  font-weight: 700;
-}
-.navbar-default .navbar-nav>li>a{
-  color: #fff;
-  font-size: 16px;
-}
-.navbar-default .navbar-nav>li>a:hover{
-  color: #fff;
-  background-color: #2ec997;;
-}
-.active{
-  background-color: #2ec997;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: #2ec997;
-}
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #fff;
-    background-color: transparent;
-}
-#MT{
-  font-size: 34px;
-  padding: 15px 15px;
-  color: #fff;
-  font-family: 'Lobster', sans-serif;
-}
-img{
-  vertical-align: middle;
-}
-.img-responsive{
-  margin-left: auto;
-  margin-right: auto;
-  height: 230px;
-  border-radius: 50%;
-}
-.name{
-  font-size: 42px;
-  color: #fff;
-  font-weight: 700;
-  font-family: 'Lobster', sans-serif;
-}
-.jumbotron {
-   background: rgb(200, 54, 54); /* This is for ie8 and below */
-   background-color: rgba(245, 245, 245, 0.3);
-   margin-top: -30px;
-}
-.skills{
-  font-size: 32px;
-  color: #fff;
-  font-weight: 700;
-  font-family: 'Sansita', sans-serif;
-}
-#img-res-xs{
-  margin-left: auto;
-  margin-right: auto;
-  height: 150px;
-  border-radius: 50%;
-}
-.skills-xs{
-  font-size: 24px;
-  color: #fff;
-  font-weight: 700;
-  font-family: 'Sansita', sans-serif;
-}
-.name-xs{
-  font-size: 28px;
-  color: #fff;
-  font-family: 'Lobster', sans-serif;
-  font-weight: 700;
-}
-.star-light{
-  font-weight: 700;
-}
-#xs{
-  margin-top: -35px;
-}
-.More {
-  display: inline-block;
-  margin: 0 10px 0 0;
-  padding: 10px 36px;
-  font-size: 18px;
-  font-family: "Raleway",serif;
-  line-height: 1.0;
-  appearance: none;
-  box-shadow: none;
+.app-navbar{
+  background: rgba(0,0,0,0.6);
   border-radius: 0;
 }
-
-.More:focus {
-  outline: none
-}
-.More {
-  margin-top: 5px;
+.app-link{
   color: #fff;
+  text-shadow: none;
+}
+.app-link:hover{
+  color: #fff;
+}
+a{
+  color: #fff;
+}
+a:hover{
+  color: #222;
+}
+.app-navbar>li>a{
+  color: #fff;
+  text-shadow: none;
+}
+.app-navbar>li>a:hover{
+  color: #fff;
+  background-color: #222;
+}
+.app-icon{
+  background: #fff;
+}
+.section1{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 170px;
+}
+.app-title{
+  text-align: center;
+  color: #fff;
+  font-family: 2.8em;
+  margin-bottom: 35px;
+}
+.resalt{
+  color: #2ec997;
+}
+.descripcion1{
+  text-align: center;
+  color: #fff;
+  font-size: 1em;
+  margin-bottom: 80px;
   font-weight: 700;
-  background: rgba(0,0,0,0);
-  border: solid 5px #2ec997;
-  text-decoration: none;
 }
-.More:hover{
-  border-color: #33a580;
+.solucion{
+  text-align: center;
   color: #fff;
-  text-decoration: none;
-
+  font-weight: 600;
 }
-.More.active{
-  border-color: #27496d;
-  color: #27496d;
+.app-formulario1{
+  width: 100%;
+  margin: 0 auto;
 }
-/*PARPADEA*/
-.parpadea {
-
-  animation-name: parpadeo;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
-  -webkit-animation-name:parpadeo;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
+.app-formulario2{
+  padding: 15px 25px 25px 25px;
+  background: rgba(0,0,0,0.6);
+}
+.app-input{
+  height: 50px;
+  margin-top: 10px;
+}
+.app-button{
+  margin-top: 10px;
+  height: 50px;
+  background: #2ec997;
+  color: #fff;
+}
+.app-button:hover{
+  background: #2ec987;
+  color: #fff;
+}
+.app-section2{
+  margin: 80px 0;
+}
+.app-title2{
+  margin-top: 0;
+}
+.app-separator{
+  width: 100px;
+  border-bottom: 1px solid #2ec997;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.app-justify{
+  text-align: justify;
+  color: #727272;
+}
+.app-media{
+  margin-top: 40px;
+}
+.app-icon1{
+  background-color: #2ec997;
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+}
+.app-title3{
+  text-align: center;
+}
+.app-section3{
+  background-color: #f7f8fa;
+  padding: 80px 0;
+}
+.app-contenedor{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.app-separator2{
+  width: 100px;
+  border-bottom: 1px solid #2ec997;
+  margin: 20px auto;
+}
+.icon2{
+  color: #2ec997;
+  font-size: 60px;
+}
+.app-description2{
+  color: #727272;
+}
+.app-list1{
+  background-color: #323232;
+  color: #fff;
+  text-align: center;
+}
+.app-price{
+  text-align: center;
+}
+.app-payment{
+  font-weight: bold;
+  margin-right: 30px;
+}
+.app-btn1{
+  background-color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #222;
+}
+.app-list2{
+  background-color: #2ec997;
+  color: #fff;
+  text-align: center;
+}
+.app-btn2{
+  background-color: #2ec997;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.app-video{
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.app-footer{
+  text-align: center;
+  background-color: #f7f8fa;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 100px 0;
+}
+.app-empresa{
+  margin-bottom: 50px;
+}
+.app-icon1{
+  background-color: #919191;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-left: 10px;
 }
 
-@-moz-keyframes parpadeo{
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
-}
 
-@-webkit-keyframes parpadeo {
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-   100% { opacity: 1.0; }
-}
-
-@keyframes parpadeo {
-  0% { opacity: 1.0; }
-   50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
+@media (max-width: 768px){
+  .section1{
+    width: 90%;
+  }
+  .app-title{
+    font-size: 1.8em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .descripcion1{
+    font-size: 0.8em;
+    margin-bottom: 50px;
+  }
 }

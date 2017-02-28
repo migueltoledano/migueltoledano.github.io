@@ -1,171 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Miguel Toledano</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font-awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/custom.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Miguel Toledano</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top" id="MT">Miguel Toledano</a>
+<body>
+<Header class="app-header">
+  <nav class="navbar app-navbar navbar-fixed">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+          <span class="icon-bar app-icon"></span>
+          <span class="icon-bar app-icon"></span>
+          <span class="icon-bar app-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand app-link">Miguel Toledano</a>
+      </div>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav navbar-right app-nav">
+          <li>
+            <a href="#principal">Inicio</a>
+          </li>
+          <li>
+            <a href="#services">Servicios</a>
+          </li>
+          <li>
+            <a href="#">Acerca de</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="section1" id="principal">
+    <h1 class="app-title">Obten la mejor <span class="resalt">Solución</span> para tu negocio.</h1>
+    <p class="descripcion1">¿Necesitas una página web <span class="resalt">completa </span>, <span class="resalt">amigable</span>,
+    y totalmente adaptable para <span class="resalt">dispositivos moviles?</span></p>
+    <h3 class="solucion">Nosotros somos los mejores!</h3>
+    <div class="app-formulario1">
+      <div class="app-formulario2">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-8">
+              <input type="text" placeholder="Email" class="form-control app-input">
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Acerca de</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Servicios</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contacto</a>
-                    </li>
-                </ul>
+            <div class="col-xs-12 col-sm-4">
+              <button class="btn app-button btn-block">Ingresar</button>
             </div>
-            <!-- /.navbar-collapse -->
+          </div>
         </div>
-        <!-- /.container -->
-    </nav>
+      </div>
+    </div>
+  </section>
+</Header>
 
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-      <!-- Hidden on XS -->
-        <div class="container visible-lg visible-md">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-text">
-                      <div class="container">
-                        <div class="jumbotron">
-                          <img class="img-responsive" src="img/profile.jpg" alt="">
-                          <span class="name"><span class="fa fa-terminal fa-lg"></span>Miguel Toledano<span class="parpadea">|</span></span>
-                          <hr class="star-light">
-                          <span class="skills">Web Developer - Full-Stack Developer - User Experience Designer</span>
-                          <br>
-                          <a class="More page-scroll" href="#about">Leer Más <i class="fa fa-angle-double-right fa-lg"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                </div>
+<section class="app-section2" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <br>
+        <img src="img/intro4.jpg" alt="" class="img-responsive img-rounded">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <br>
+        <h2 class="app-title2">Algo relevante e importante tiene que ir aquí</h2>
+        <p class="app-separator"></p>
+        <p class="app-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla minima pariatur culpa maiores corporis fuga deleniti, minus alias id suscipit, beatae tenetur. Aliquid, fugit exercitationem eligendi pariatur excepturi perspiciatis voluptas.</p>
+
+        <div class="media app-media">
+            <div class="pull-left">
+                <span class="glyphicon glyphicon-cog app-icon1"></span>
             </div>
-        </div>
-        <!-- Hidden on lg -->
-        <div class="container visible-xs">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-text">
-                      <div class="container" id="xs">
-                        <div class="jumbotron">
-                          <img class="img-responsive" id="img-res-xs" src="img/profile.jpg" alt="">
-                          <span class="name-xs"><span class="fa fa-terminal fa-lg"></span>Miguel Toledano<span class="parpadea">|</span></span>
-                          <hr class="star-light">
-                          <span class="skills-xs">Web Developer - Backend Developer - User Experience Designer</span>
-                          <br>
-                          <a class="More page-scroll" href="#about">Leer Más <i class="fa fa-angle-double-right fa-lg"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Hidden on lg -->
-        <div class="container visible-sm">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-text">
-                      <div class="container">
-                        <div class="jumbotron">
-                          <img class="img-responsive" src="img/profile.jpg" alt="">
-                          <span class="name"><span class="fa fa-terminal fa-lg"></span>Miguel Toledano<span class="parpadea">|</span></span>
-                          <hr class="star-light">
-                          <span class="skills">Web Developer - Backend Developer - User Experience Designer</span>
-                          <br>
-                          <a class="More page-scroll" href="#about">Leer Más <i class="fa fa-angle-double-right fa-lg"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                </div>
+            <div class="media-body">
+                <h4 class="media-heading">Bien vergas</h4>
+                <p class="app-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora, rem aliquid deleniti corporis possimus dolorem explicabo nihil velit iusto blanditiis voluptatum porro nobis, voluptas molestiae sunt vitae numquam ullam.</p>
             </div>
         </div>
 
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-
-                </div>
+        <div class="media app-media">
+            <div class="pull-left">
+                <span class="glyphicon glyphicon-shopping-cart app-icon1"></span>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Lorem ipsum</h4>
+                <p class="app-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora, rem aliquid deleniti corporis possimus dolorem explicabo nihil velit iusto blanditiis voluptatum porro nobis, voluptas molestiae sunt vitae numquam ullam.</p>
             </div>
         </div>
-    </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Services Section</h1>
-                </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="app-section3">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <br>
+        <h2 class="app-title2">Algo relevante e importante tiene que ir aquí</h2>
+        <p class="app-separator"></p>
+        <p class="app-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla minima pariatur culpa maiores corporis fuga deleniti, minus alias id suscipit, beatae tenetur. Aliquid, fugit exercitationem eligendi pariatur excepturi perspiciatis voluptas.</p>
+
+        <div class="media app-media">
+            <div class="pull-left">
+                <span class="glyphicon glyphicon-cog app-icon1"></span>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Bien vergas</h4>
+                <p class="app-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora, rem aliquid deleniti corporis possimus dolorem explicabo nihil velit iusto blanditiis voluptatum porro nobis, voluptas molestiae sunt vitae numquam ullam.</p>
             </div>
         </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Section</h1>
-                </div>
+        <div class="media app-media">
+            <div class="pull-left">
+                <span class="glyphicon glyphicon-shopping-cart app-icon1"></span>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Lorem ipsum</h4>
+                <p class="app-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tempora, rem aliquid deleniti corporis possimus dolorem explicabo nihil velit iusto blanditiis voluptatum porro nobis, voluptas molestiae sunt vitae numquam ullam.</p>
             </div>
         </div>
-    </section>
 
-    <!-- jQuery -->
-    <script src="js/jquery-3.1.1.min.js"></script>
+      </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <br>
+        <img src="img/intro2.jpeg" alt="" class="img-responsive img-rounded">
+      </div>
 
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+    </div>
+  </div>
+</section>
+
+<section class="app-section2">
+  <div class="container">
+    <div class="contenedor">
+      <h2 class="app-title3">Caracteristicas</h2>
+      <p class="app-separator2"></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="app-contenedor">
+          <p class="glyphicon glyphicon-phone icon2"></p>
+          <h3>Responsive Web Design</h3>
+          <p class="app-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique id nulla tenetur sequi accusamus.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="app-contenedor">
+          <p class="glyphicon glyphicon-pencil icon2"></p>
+          <h3>350+ Iconos Fuentes</h3>
+          <p class="app-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique id nulla tenetur sequi accusamus.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="app-contenedor">
+          <p class="glyphicon glyphicon-gift icon2"></p>
+          <h3>Nosotros Amamos Bootstrap</h3>
+          <p class="app-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique id nulla tenetur sequi accusamus.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="app-contenedor">
+          <p class="glyphicon glyphicon-briefcase icon2"></p>
+          <h3>Personalización adecuada para cada negocio</h3>
+          <p class="app-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique id nulla tenetur sequi accusamus.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="app-contenedor">
+          <p class="glyphicon glyphicon-envelope icon2"></p>
+          <h3>Mensajería</h3>
+          <p class="app-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique id nulla tenetur sequi accusamus.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="app-contenedor">
+          <p class="glyphicon glyphicon-cloud icon2"></p>
+          <h3>Su página web alojada en la nube</h3>
+          <p class="app-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique id nulla tenetur sequi accusamus.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="app-section3">
+  <div class="container">
+    <div class="app-contenedor">
+      <h2 class="app-title3">Paquetes</h2>
+      <p class="app-separator2"></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti tempora eum est magni vitae repudiandae cupiditate, quas commodi sed possimus, id reprehenderit?</p>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <ul class="list-group">
+          <li class="list-group-item app-list1">
+            <h2>Básico</h2>
+            <p>Desde $39 por mes</p>
+          </li>
+          <li class="list-group-item">Usuarios Totales <span class="badge">50</span></li>
+          <li class="list-group-item">Protección Avanzada
+            <span class="pull-right glyphicon glyphicon-ok"></span>
+          </li>
+          <li class="list-group-item">Estilos Ilimitados
+            <span class="pull-right glyphicon glyphicon-remove"></span>
+          </li>
+          <li class="list-group-item">Almacenamiendo en la Nube
+            <span class="pull-right glyphicon glyphicon-remove"></span>
+          </li>
+          <li class="list-group-item">Servicio de Reserva
+            <span class="pull-right glyphicon glyphicon-remove"></span>
+          </li>
+          <li class="list-group-item app-price">
+            <span class="app-payment">$39 por mes</span>
+            <button class="btn app-btn1">Contratar</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-4">
+        <ul class="list-group">
+          <li class="list-group-item app-list2">
+            <h2>Premium</h2>
+            <p>Desde $59 por mes</p>
+          </li>
+          <li class="list-group-item">Usuarios Totales <span class="badge">100</span></li>
+          <li class="list-group-item">Protección Avanzada
+            <span class="pull-right glyphicon glyphicon-ok"></span>
+          </li>
+          <li class="list-group-item">Estilos Ilimitados
+            <span class="pull-right glyphicon glyphicon-ok"></span>
+          </li>
+          <li class="list-group-item">Almacenamiendo en la Nube
+            <span class="pull-right glyphicon glyphicon-remove"></span>
+          </li>
+          <li class="list-group-item">Servicio de Reserva
+            <span class="pull-right glyphicon glyphicon-remove"></span>
+          </li>
+          <li class="list-group-item app-price">
+            <span class="app-payment">$59 por mes</span>
+            <button class="btn app-btn2">Contratar</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-4">
+        <ul class="list-group">
+          <li class="list-group-item app-list1">
+            <h2>Enterprise</h2>
+            <p>Desde $79 por mes</p>
+          </li>
+          <li class="list-group-item">Usuarios Totales <span class="badge">200</span></li>
+          <li class="list-group-item">Protección Avanzada
+            <span class="pull-right glyphicon glyphicon-ok"></span>
+          </li>
+          <li class="list-group-item">Estilos Ilimitados
+            <span class="pull-right glyphicon glyphicon-ok"></span>
+          </li>
+          <li class="list-group-item">Almacenamiendo en la Nube
+            <span class="pull-right glyphicon glyphicon-ok"></span>
+          </li>
+          <li class="list-group-item">Servicio de Reserva
+            <span class="pull-right glyphicon glyphicon-ok"></span>
+          </li>
+          <li class="list-group-item app-price">
+            <span class="app-payment">$79 por mes</span>
+            <button class="btn app-btn1">Contratar</button>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section2">
+  <div class="container">
+    <div class="contenedor">
+      <h2 class="app-title3">Ver Video</h2>
+      <p class="app-separator2"></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsum, blanditiis aliquid inventore laboriosam voluptatum nobis magnam asperiores provident veritatis quidem. Nihil tempore maxime, consequuntur harum ut quisquam adipisci illo?</p>
+    </div>
+    <video controls poster="img/ana.jpg" class="img-responsive app-video">
+      <source src="video/Andromeda.mp4"></source>
+    </video>
+  </div>
+</section>
+
+<footer class="app-footer">
+  <div class="app-empresa">
+    <h4>Miguel Toledano</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+  <span class="fa fa-facebook fa-lg app-icon1"></span>
+  <span class="fa fa-twitter fa-lg app-icon1"></span>
+  <span class="fa fa-instagram fa-lg app-icon1"></span>
+</footer>
 
 </body>
-
+<script src="js/jquery.min.js" charset="utf-8"></script>
+<script src="" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+$('a[href*="#"]:not([href="#"])').click(function() {
+if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+  var target = $(this.hash);
+  target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+  if (target.length) {
+    $('html, body').animate({
+      scrollTop: target.offset().top
+    }, 1000);
+    return false;
+  }
+}
+});
+</script>
 </html>
